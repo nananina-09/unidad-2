@@ -1,0 +1,75 @@
+/* Estilo general del formulario */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+/* Pseudoclases para interacción */
+input:focus,
+textarea:focus {
+  border-color: #007bff;
+}
+
+/* Si el campo es válido */
+input:valid,
+textarea:valid {
+  border-color: #28a745;
+}
+
+/* Si el campo es inválido */
+input:invalid,
+textarea:invalid {
+  border-color: #dc3545;
+  background-color: #fff5f5;
+}
+
+/* Botón */
+button {
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
