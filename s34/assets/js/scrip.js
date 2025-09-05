@@ -67,4 +67,10 @@ console.log("filter");
 let filteredNums = nums.filter((x) => x > 5);
 console.log(filteredNums);
 
-console.log(nums.filter(x) => x < 6)
+console.log(nums.filter((x) => x < 6));
+console.log(nums.filter((x) => x % 2 === 0));
+
+console.log("Reduce");
+
+console.log(nums.reduce((a, b) => a + b, 0));
+console.log(nums.reduce((a, b) => a * b, 1));
